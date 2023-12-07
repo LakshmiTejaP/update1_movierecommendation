@@ -20,6 +20,18 @@ nav li {
     margin-right: 20px;
 }
 
+/* Improve contrast for navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-weight: bold; /* Optionally, make the text bold for better readability */
+}
+
+/* Increase contrast for navigation links on hover */
+nav a:hover {
+    color: #ff9900; /* Change link color on hover to a more noticeable color */
+}
+
 .section {
     padding: 50px;
     text-align: center;
